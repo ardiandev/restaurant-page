@@ -1,0 +1,43 @@
+@import "../colors";
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: steelblue;
+  padding: 0 20px;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.hero-heading-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.home h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.hero-image-container {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.hero-image-container img {
+  border-radius: 50%;
+  max-width: 400px;
+}
+
+.order-btn {
+  padding: 7px 10px;
+  margin-top: 10px;
+  background-color: $secondary;
+  border: 1px solid transparent;
+  color: $white;
+}

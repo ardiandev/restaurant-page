@@ -1,0 +1,27 @@
+@import "../colors.scss";
+.menu {
+  height: 100%;
+  text-align: center;
+}
+
+.food-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid $tertiary;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.image-container {
+  padding: 20px;
+  height: 200px;
+}
