@@ -2,6 +2,12 @@
 .menu {
   height: 100%;
   text-align: center;
+  display: none;
+}
+.menu-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 20px 0;
 }
 
 .food-items {

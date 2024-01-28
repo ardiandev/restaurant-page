@@ -9,6 +9,10 @@ import sushi from "../../assets/images/taco.jpg";
 const menu = (): HTMLDivElement => {
   const menuEl: HTMLDivElement = document.createElement("div");
   menuEl.classList.add("container", "menu");
+  const menuTitle = document.createElement("h2");
+  menuTitle.textContent = "Menu List";
+  menuTitle.classList.add("menu-title");
+  menuEl.appendChild(menuTitle);
   menuEl.appendChild(foodLists());
   return menuEl;
 };

@@ -23,7 +23,7 @@ const logo = () => {
 
 const nav = () => {
   const navEl = document.createElement("nav") as HTMLElement;
-  navEl.innerHTML = `<ul>
+  navEl.innerHTML = `<ul class="nav-menu">
   <li>Home</li>
   <li>Menu</li>
   <li>Contact</li>

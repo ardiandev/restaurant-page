@@ -3,6 +3,7 @@ import chicken from "../../assets/images/chef.png";
 const home = () => {
   const homeEl = document.createElement("div");
   homeEl.classList.add("container", "home");
+  homeEl.id = "home";
   const heroEl = hero();
   const imageHome = homeImg();
   // homeEl.innerHTML = `<h1>Welcome to Laris Restaurant</h1>`;
