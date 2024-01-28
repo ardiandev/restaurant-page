@@ -53,15 +53,3 @@ const handleMenuColor = () => {
   const menuItems = document.querySelectorAll("ul li");
   menuItems.forEach(li => li.classList.remove("menu-active"));
 };
-
-// const AppEl = document.querySelector("#app")! as HTMLDivElement;
-// const headerEl = document.createElement("header")! as HTMLElement;
-// const myImg = document.createElement("img")! as HTMLImageElement;
-// const myIcon = document.createElement("img")! as HTMLImageElement;
-// myImg.src = chicken;
-// myIcon.src = alien;
-// headerEl.textContent = "Hello Wordl";
-
-// AppEl.appendChild(headerEl);
-// AppEl.appendChild(myImg);
-// AppEl.appendChild(myIcon);
