@@ -8,7 +8,7 @@ This project is a part of The Odin Project course, an open-source curriculum for
 
 ## Demo
 
-Check out the domo of the page (here)[https://ardiandev.github.io/restaurant-page/]
+Check out the demo of the page [here](https://ardiandev.github.io/restaurant-page/)
 
 ## Installation
 
